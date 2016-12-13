@@ -10,6 +10,13 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hola github");
+            do
+            {
+                Console.Write("Texto ");
+            } while ((Console.ReadLine() != "q"));
+
+            
         }
     }
 }
