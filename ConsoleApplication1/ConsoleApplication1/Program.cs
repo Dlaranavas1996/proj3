@@ -16,7 +16,7 @@ namespace ConsoleApplication1
                 do
                 {
 
-                    Console.Write("Texto  en bucle: {0}", i);
+                    Console.Write("Texto en bucle: {0}", i);
                 } while ((Console.ReadLine() != "q"));
             }
            
