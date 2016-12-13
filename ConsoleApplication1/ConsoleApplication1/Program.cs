@@ -11,10 +11,15 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
             Console.WriteLine("Hola github");
-            do
+            for (int i = 0; i < 5; i++)
             {
-                Console.Write("Texto ");
-            } while ((Console.ReadLine() != "q"));
+                do
+                {
+
+                    Console.Write("Texto en bucle: {0}", i);
+                } while ((Console.ReadLine() != "q"));
+            }
+           
 
             
         }
